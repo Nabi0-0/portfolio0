@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Vedanshi Goswami</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Vedanshi Goswami</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="C:\Users\vedan\Documents\.vscode\portfolio\v0.jpg" alt="Vedanshi Goswami profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Vedanshi</h1>
+        <p class="section__text__p2"> a CSE student, passinate about </p>
+        <span id = "element"></span>
+        <p class = "section__text__p3"><i> merging the world of logic and creativity in pursuit of digital solutions that make a difference.</i></p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('file:///C:/Users/vedan/Documents/.vscode/portfolio/VEDANSHIsResume.pdf')" 
+          >
+            Download RESUME
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='file:///C:/Users/vedan/Documents/.vscode/portfolio/index.html#contact'">
+            Contact Information
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="C:\Users\vedan\Documents\.vscode\portfolio\729101_linkedin_icon.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/vedanshi-goswami-1b0901221/'"
+          />
+          <img
+            src="C:\Users\vedan\Documents\.vscode\portfolio\github-icon-256x256-sgutmi4g.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Nabi0-0'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src=" "
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="C:\Users\vedan\Documents\.vscode\portfolio\skills.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Technical Skills</h3>
+              <img src = "C:\Users\vedan\Documents\.vscode\portfolio\cpp.png" alt = "c programing" class = "icon" />
+              <img src = "C:\Users\vedan\Documents\.vscode\portfolio\6132222.png" alt = "c++ programing" class = "icon" />
+              <img src = "C:\Users\vedan\Documents\.vscode\portfolio\java-icon-256x256-k4ufhihr.png" alt = "java programing" class = "icon" />
+              <img src = "C:\Users\vedan\Documents\.vscode\portfolio\communityIcon_h9cdwd9m75a51.png" alt = "python programing" class = "icon" />
+              
+              <img src = "C:\Users\vedan\Documents\.vscode\portfolio\mysql.png" alt = "sql programing" class = "icon" />
+              <img src = "C:\Users\vedan\Documents\.vscode\portfolio\html.png" alt = "html programing" class = "icon" />
+              <img src = "C:\Users\vedan\Documents\.vscode\portfolio\css.png" alt = "css programing" class = "icon" />
+            </br>
+              <h3>Soft skills</h3>
+              <p>communication </br> problem-solving </br> Team Colaboration </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="C:\Users\vedan\Documents\.vscode\portfolio\edu.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p><b>GRAPHIC ERA HILL UNIVERSITY</b></p>
+              <p>B.Tech.(Bachelors Degree)<br />in computer Science</p>
+              <p>2021 - present</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Greetings, I'm Vedanshi Goswami, a driven and dedicated student of Computer Science and Engineering (CSE) with a strong commitment to technological innovation and problem-solving.  
+              <br>
+              <b><i>MY APPROACH</i> </b> 
+              <br>          
+              I believe in dedication to precision, creativity, and collaboration. Challenges are opportunities, and feedback is fuel for improvement. My work is guided by the pursuit of impactful solutions. Whether I'm "crafting code," "designing visuals," etc.., I strive for elegance, functionality and impactful solution.   
+              <br>
+              <b><i>BEYOND CSE</i></b>
+              <br>
+              When I'm not Programing or designing , you can find me reading and writting stories and hiking. I'm a firm believer in mention personal philosophies or values that drive you outside of your field.
+              <br>
+              <b><i>LET'S CONNECT</i></b>
+              <br>
+              I'm excited to share my portfolio with you, and I'd love to hear about your own experiences and ideas. Feel free to drop me a message, connect on LinkedIn,or email me. Let's embark on this creative journey together!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="C:\Users\vedan\Documents\.vscode\portfolio\real-time.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One </br> real-time-Detection</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Nabi0-0/Real-time-detection'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="C:\Users\vedan\Documents\.vscode\portfolio\gmail.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:vedanshigoswami0@gmail.com">vedanshigoswami0@gmail.com.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="C:\Users\vedan\Documents\.vscode\portfolio\729101_linkedin_icon.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/vedanshi-goswami-1b0901221/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Vedanshi Goswami. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+    var typed = new Typed('#element',
+     {
+        strings: ['<i>designing</i>', '&amp; programing.'],
+        typeSpeed: 60,
+    });
+    </script>
+
+  </body>
+</html>
